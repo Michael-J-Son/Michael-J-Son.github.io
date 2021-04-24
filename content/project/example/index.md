@@ -69,8 +69,6 @@ url_code: ""
    * Excluded loans in-progress.
    * Target feature reclassified into two groups (Good Loan, Bad Loan), then binarized.
 
-
-
 ## Exploratory Data Analysis
 
 ### Pearson Correlations
@@ -84,15 +82,11 @@ url_code: ""
   * revol_util
   * inq_l
 
-
-
 ### Term/Loan Amount
 
 ![](term_loan_amount_relationship.png)
 
 * Loan amount tends to increase with longer term regardless of loan type.
-
-
 
 ### Influence of Applicant Location
 
@@ -103,16 +97,12 @@ url_code: ""
 * States with highest # of good loans ≈ States with highest # of bad loans
 * Applicant location (state) is not a good predictor for loan type.
 
-
-
 ### Loan Type Distribution
 
 ![](loan_type_distribution.png)
 
 * Grade description: 0 as worst, 6 as best
 * Ideally, the number of bad loans should decrease with higher grade.
-
-
 
 ## Modeling
 
@@ -138,19 +128,13 @@ I. Data Preprocessing
 4. Standardization of features with **StandardScaler**
 5. Minority class (Bad Loan) oversampling with **SMOTE** from **Imbalanced-Learn**
 
-
-
 II. Hyperparameter Tuning with Randomized Search
 
 * **Stratified K-Fold** with **cv = 5**
 * **n_iter = 30**
 * **scoring = 'roc_auc'**
 
-
-
 III. Training with Tuned Hyperparameters
-
-
 
 IV. Performance Evaluation
 
@@ -192,7 +176,7 @@ IV. Performance Evaluation
 
   * Outdated data
   * Large volume of missing features (only 24 out of 115 features usable)
-  * Limited sample size (only 39239 entries)
+  * Limited sample size (only 39,239 entries)
 
 ## Conclusion
 
