@@ -1,41 +1,205 @@
 ---
-title: Example Project
-summary: An example of using the in-built project page.
-tags:
-- Deep Learning
-date: "2016-04-27T00:00:00Z"
-
-# Optional external URL for project (replaces project detail page).
-external_link: ""
-
-image:
-  caption: Photo by rawpixel on Unsplash
-  focal_point: Smart
-
-links:
-- icon: twitter
-  icon_pack: fab
-  name: Follow
-  url: https://twitter.com/georgecushen
-url_code: ""
-url_pdf: ""
-url_slides: ""
-url_video: ""
-
-# Slides (optional).
-#   Associate this project with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
 slides: example
+url_pdf: ""
+title: Lending Club Loan Approval
+summary: >-
+  ## Project Summary
+
+
+  * Constructed a **binary classifier** to differentiate loans which are most likely to incur loss from the rest, based on financial attributes of loan applicants.
+
+  * Addressed the issue of imbalanced data by oversampling the minority class using **SMOTE** from **Imbalanced-Learn**.
+
+  * Optimized models by tuning their hyperparameters with **RandomizedSearchCV**.
+
+  * Models trained/evaluated:
+
+    * **Logistic Regression**
+    * **Random Forest**
+    * **Support Vector Machine**
+    * **XGBoost**
+  * Best model: **XGBoost**
+url_video: ""
+date: 2021-04-24T22:51:51.122Z
+external_link: https://github.com/Michael-J-Son/Lending_Club_Capstone
+url_slides: ""
+subtitle: Binary Classifier to Optimize Loan Approval
+tags:
+  - Classification
+  - Imbalanced Data
+links:
+  - icon: github
+    icon_pack: fab
+    name: Follow
+    url: https://github.com/Michael-J-Son/Lending_Club_Capstone
+image:
+  caption: ""
+  focal_point: Smart
+url_code: ""
 ---
+## Data Information
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+* **Lending Club Loan Data 2007-2011** containing loan status and relevant financial information.
+* **42,538** entries, **115** features
+* Target feature (**loan_status**) reclassified/binarized as **loan_type**.
 
-Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.
+  * **1** (Good Loan): Fully Paid
+  * **0** (Bad Loan): Charged Off, Does Not Meet the Credit Policy
 
-Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.
+![](loan_type_percentage.png "Target Feature Class Imbalance")
 
-Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.
+## Data Wrangling/Feature Engineering
 
-Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.
+1. Data Cleaning
+
+   * Removed empty columns/null values.
+2. Feature Selection
+
+   * Eliminated redundancy/data leakage.
+   * Retained relevant/useful features.
+3. Features Converted to Numerical Data Type
+
+   * Feature containing numerical values: **revol_util** (revolving line utilization rate)
+   * Features containing ordinal values: **grade**, **emp_length** (employment length in years)
+4. Newly Added Feature: **fico_range_avg**
+
+   * Mean value of **fico_range_low** and **fico_range_high**.
+5. Target Feature Engineering
+
+   * Excluded loans in-progress.
+   * Target feature reclassified into two groups (Good Loan, Bad Loan), then binarized.
+
+
+
+## Exploratory Data Analysis
+
+### Pearson Correlations
+
+![](feature_correlation.png)
+
+* Notable **loan_type** correlations
+
+  * grade
+  * fico_range_avg
+  * revol_util
+  * inq_l
+
+
+
+### Term/Loan Amount
+
+![](term_loan_amount_relationship.png)
+
+* Loan amount tends to increase with longer term regardless of loan type.
+
+
+
+### Influence of Applicant Location
+
+![](good_loan_state.png)
+
+![](bad_loan_state.png)
+
+* States with highest # of good loans ≈ States with highest # of bad loans
+* Applicant location (state) is not a good predictor for loan type.
+
+
+
+### Loan Type Distribution
+
+![](loan_type_distribution.png)
+
+* Grade description: 0 as worst, 6 as best
+* Ideally, the number of bad loans should decrease with higher grade.
+
+
+
+## Modeling
+
+### Overview
+
+* Nature of task
+
+  * Supervised learning
+  * Binary classification of highly imbalanced data
+* Machine learning tools used
+
+  * **Scikit-Learn**
+  * **Imbalanced-Learn**
+  * **XGBoost**
+
+### Procedure
+
+I. Data Preprocessing
+
+1. One-hot encoding on categorical features
+2. Conversion of datetime objects to ordinal numeric
+3. Training/Test split (80%: 20%)
+4. Standardization of features with **StandardScaler**
+5. Minority class (Bad Loan) oversampling with **SMOTE** from **Imbalanced-Learn**
+
+
+
+II. Hyperparameter Tuning with Randomized Search
+
+* **Stratified K-Fold** with **cv = 5**
+* **n_iter = 30**
+* **scoring = 'roc_auc'**
+
+
+
+III. Training with Tuned Hyperparameters
+
+
+
+IV. Performance Evaluation
+
+* Evaluation metric: **F1 scores**, **ROC AUC**
+* Models trained and evaluated
+
+  * **Logistic Regression**
+  * **Random Forest**
+  * **Support Vector Machine**
+  * **XGBoost**
+
+### Model Comparison
+
+| Model                  | Minority F1 | Majority F1 | ROC AUC |
+| ---------------------- | ----------- | ----------- | ------- |
+| Logistic Regression    | 0.47        | 0.80        | 0.78    |
+| Random Forest          | 0.53        | 0.91        | 0.74    |
+| Support Vector Machine | 0.41        | 0.87        | 0.67    |
+| XGBoost                | 0.56        | 0.89        | 0.80    |
+
+* Best model: **XGBoost**
+
+### Features of Importance
+
+![](feature_importance.png)
+
+* Primary features of importance
+
+  * **last_credit_pull_d**: the most recent month in which Lending Club pulled credit for this loan
+  * **grade**: loan grade assigned by Lending Club
+  * **inq_last_6mths**: the number of inquiries in past 6 months (excluding auto and mortgage inquiries)
+
+## Assumptions/Limitations
+
+* Assumption
+
+  * Data collected from loan applicants is genuine.
+* Limitations
+
+  * Outdated data
+  * Large volume of missing features (only 24 out of 115 features usable)
+  * Limited sample size (only 39239 entries)
+
+## Conclusion
+
+* Best model: **XGBoost**
+* Primary features of importance: **last_credit_pull_d**, **grade**, **inq_last_6mths**
+* Prospective improvements
+
+  * Up-to-date dataset
+  * Hyperparameter tuning with **GridSearchCV**
+  * Alternative classifier algorithms: **Neural Network**, **Deep Learning**, etc.
