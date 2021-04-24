@@ -23,7 +23,7 @@ url_video: ""
 date: 2021-04-24T22:51:51.122Z
 external_link: https://github.com/Michael-J-Son/Lending_Club_Capstone
 url_slides: ""
-subtitle: Binary Classifier to Optimize Loan Approval
+subtitle: Binary Classifier for Optimizing Loan Approval
 tags:
   - Classification
   - Imbalanced Data
