@@ -1,10 +1,10 @@
 ---
 title: Michael Son
 role: Research Scientist, Data Scientist
-bio: "Interests: biotechnology, data analysis, machine learning"
+bio: "Interests: biotechnology, data science, machine learning"
 interests:
   - Biotechnology
-  - Data Analysis
+  - Data Science
   - Machine Learning
 social:
   - icon: envelope
@@ -31,6 +31,6 @@ email: ""
 superuser: true
 highlight_name: false
 ---
-Meticulous and analytical researcher with expertise in molecular biology techniques and data analysis. Detail-oriented and methodical professional proficient in conducting rigorous experimental research utilizing state-of-the-art equipment (Zetasizer, Beckman Coulter, etc.). Familiar with gathering, cleaning, and organizing data for use by technical and non-technical personnel. Advanced understanding of statistical, algebraic, and other analytical techniques. Reliable team player with excellent communication and problem-solving skills.
+Meticulous and analytical researcher with expertise in molecular biology techniques and data analysis. Detail-oriented and methodical professional proficient in conducting rigorous experimental research utilizing state-of-the-art equipment. Familiar with gathering, cleaning, and organizing data for use by technical and non-technical personnel. Advanced understanding of statistical, algebraic, and other analytical techniques. Reliable team player with excellent communication and problem-solving skills.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/MichaelSon.docx" "newtab" >}}resumé{{< /staticref >}}.
