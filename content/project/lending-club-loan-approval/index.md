@@ -22,6 +22,7 @@ summary: >-
 draft: false
 featured: true
 tags:
+  - Supervised Learning
   - Classification
   - Imbalanced Data
 external_link: project/lending-club-loan-approval/
