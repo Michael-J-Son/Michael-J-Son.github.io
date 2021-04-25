@@ -27,10 +27,14 @@ content:
   filter_button:
   - name: All
     tag: '*'
-  - name: Deep Learning
-    tag: Deep Learning
-  - name: Other
-    tag: Demo
+  - name: Supervised Learning
+    tag: Supervised Learning
+  - name: Unsupervised Learning
+    tag: Unsupervised Learning
+  - name: Classification
+    tag: Classification
+  - name: Regression
+    tag: Regression
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
