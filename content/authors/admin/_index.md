@@ -24,7 +24,7 @@ education:
     - course: MSc in Chemical and Bioengineering
       institution: Friedrich-Alexander-Universität Erlangen-Nürnberg
       year: 2019
-    - course: HBSc in Neuroscience and Cell Molecular Biology
+    - course: HBSc in Neuroscience/Cell Molecular Biology
       institution: University of Toronto - St. George
       year: 2014
 email: ""
