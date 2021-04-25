@@ -27,9 +27,6 @@ education:
     - course: HBSc in Neuroscience/Cell Molecular Bio
       institution: University of Toronto - St. George
       year: 2014
-- icon: cv
-  icon_pack: ai
-  link: media/MichaelSon.pdf
 email: ""
 superuser: true
 highlight_name: false
