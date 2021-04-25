@@ -184,7 +184,7 @@ IV. Performance Evaluation
 
   * Outdated data.
   * Large volume of missing features (only 24 out of 115 features usable).
-  * Limited sample size (only 39,239 entries).
+  * Limited sample size (only 39,239 entries used).
 
 ## Conclusion
 
