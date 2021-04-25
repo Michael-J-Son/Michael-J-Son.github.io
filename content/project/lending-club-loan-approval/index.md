@@ -19,17 +19,13 @@ summary: >-
     * **Support Vector Machine**
     * **XGBoost**
   * Best model: **XGBoost**
-draft: true
+draft: false
 featured: true
 tags:
   - Classification
   - Imbalanced Data
-external_link: https://github.com/Michael-J-Son/Lending_Club_Capstone
-links:
-  - url: https://github.com/Michael-J-Son/Lending_Club_Capstone
-    name: Follow
-    icon_pack: fab
-    icon: github
+external_link: Project/Lending Club Loan Approval
+links: []
 image:
   filename: ""
   focal_point: Smart
