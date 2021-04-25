@@ -59,11 +59,16 @@ url_code: ""
    * Retained relevant/useful features.
 3. Features Converted to Numerical Data Type
 
-   * Feature containing numerical values: **revol_util** (revolving line utilization rate)
-   * Features containing ordinal values: **grade**, **emp_length** (employment length in years)
-4. Newly Added Feature: **fico_range_avg**
+   * Feature containing numerical values
 
-   * Mean value of **fico_range_low** and **fico_range_high**.
+     * **revol_util**: revolving line utilization rate.
+   * Features containing ordinal values
+
+     * **grade**: loan grade assigned by Lending Club.
+     * **emp_length**: employment length in years.
+4. Newly Added Feature
+
+   * **fico_range_avg**: mean value of **fico_range_low** and **fico_range_high**.
 5. Target Feature Engineering
 
    * Excluded loans in-progress.
@@ -75,12 +80,12 @@ url_code: ""
 
 ![](feature_correlation.png)
 
-* Notable **loan_type** correlations
+* Notable **loan_type** correlations 
 
-  * grade
-  * fico_range_avg
-  * revol_util
-  * inq_l
+  * **grade**: loan grade assigned by Lending Club.
+  * **fico_range_avg**: mean value of **fico_range_low** and **fico_range_high**.
+  * **revol_util**: revolving line utilization rate.
+  * **inq_last_6mths**: the number of inquiries in past 6 months (excluding auto and mortgage inquiries).
 
 ### Term/Loan Amount
 
@@ -124,7 +129,7 @@ I. Data Preprocessing
 
 1. One-hot encoding on categorical features
 2. Conversion of datetime objects to ordinal numeric
-3. Training/Test split (80%: 20%)
+3. Training/Test split (**80%**: **20%**)
 4. Standardization of features with **StandardScaler**
 5. Minority class (Bad Loan) oversampling with **SMOTE** from **Imbalanced-Learn**
 
@@ -166,9 +171,9 @@ IV. Performance Evaluation
 
 * Primary features of importance
 
-  * **last_credit_pull_d**: the most recent month in which Lending Club pulled credit for this loan
-  * **grade**: loan grade assigned by Lending Club
-  * **inq_last_6mths**: the number of inquiries in past 6 months (excluding auto and mortgage inquiries)
+  * **last_credit_pull_d**: the most recent month in which Lending Club pulled credit for this loan.
+  * **grade**: loan grade assigned by Lending Club.
+  * **inq_last_6mths**: the number of inquiries in past 6 months (excluding auto and mortgage inquiries).
 
 ## Assumptions/Limitations
 
