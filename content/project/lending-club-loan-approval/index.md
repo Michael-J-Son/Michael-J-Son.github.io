@@ -24,8 +24,12 @@ featured: true
 tags:
   - Classification
   - Imbalanced Data
-external_link: content/project/lending-club-loan-approval/index.md
-links: []
+external_link: https://michael-json.netlify.app/project/lending-club-loan-approval/
+links:
+  - icon_pack: fab
+    url: https://github.com/Michael-J-Son/Lending_Club_Capstone
+    icon: github
+    name: ""
 image:
   filename: ""
   focal_point: Smart
