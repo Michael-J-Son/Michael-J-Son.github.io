@@ -4,7 +4,7 @@ role: Research Scientist, Data Scientist
 bio: "Interests: biotechnology, data analysis, machine learning"
 interests:
   - Biotechnology
-  - Data Science
+  - Data Analysis
   - Machine Learning
 social:
   - icon: envelope
