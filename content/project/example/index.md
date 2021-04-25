@@ -182,9 +182,9 @@ IV. Performance Evaluation
   * Data collected from loan applicants is genuine.
 * Limitations
 
-  * Outdated data
-  * Large volume of missing features (only 24 out of 115 features usable)
-  * Limited sample size (only 39,239 entries)
+  * Outdated data.
+  * Large volume of missing features (only 24 out of 115 features usable).
+  * Limited sample size (only 39,239 entries).
 
 ## Conclusion
 
@@ -193,5 +193,5 @@ IV. Performance Evaluation
 * Prospective improvements
 
   * Up-to-date dataset
-  * Hyperparameter tuning with **GridSearchCV**
+  * Hyperparameter tuning with different techniques
   * Alternative classifier algorithms: **Neural Network**, **Deep Learning**, etc.
