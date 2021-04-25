@@ -2,6 +2,22 @@
 title: Melanoma Tumor Size Prediction
 subtitle: Regressor for Predicting Melanoma Tumor Size
 date: 2021-04-24T22:53:56.842Z
+summary: >-
+  ## Project Summary
+
+
+  * Constructed a regressor to predict the numerical value of melanoma tumor size based on relevant attributes.
+
+  * Optimized models by tuning their hyperparameters with **RandomSearchCV**.
+
+  * Models trained and evaluated
+
+    * **Multiple Linear Regression**
+    * **Random Forest**
+    * **Support Vector Machine**
+    * **Multi-Layer Perceptron**
+    * **Keras Regression**
+  * Best model: **Random Forest**
 draft: false
 featured: false
 tags:
@@ -145,10 +161,10 @@ IV. Performance Evaluation
 
 ## Conclusion
 
-* Best model: Random Forest
+* Best model: **Random Forest**
 * Primary features of importance: **malign_ratio**, **damage_size**, **malign_penalty**
 * Prospective improvements
 
   * Larger dataset
   * Hyperparameter tuning with different techniques
-  * Further experiment with neural network/deep learning models
+  * Further experiment with **Neural Network**/**Deep Learning** models
