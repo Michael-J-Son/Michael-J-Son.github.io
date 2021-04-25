@@ -193,5 +193,3 @@ IV. Performance Evaluation
   * Up-to-date dataset
   * Hyperparameter tuning with different techniques
   * Alternative classifier algorithms: **Neural Network**, **Deep Learning**, etc.
----
-content
