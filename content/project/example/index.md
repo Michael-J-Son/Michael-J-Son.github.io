@@ -12,7 +12,7 @@ summary: >-
 
   * Optimized models by tuning their hyperparameters with **RandomizedSearchCV**.
 
-  * Models trained/evaluated
+  * Models trained and evaluated
 
     * **Logistic Regression**
     * **Random Forest**
