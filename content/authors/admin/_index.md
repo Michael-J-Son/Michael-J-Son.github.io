@@ -24,12 +24,12 @@ education:
     - course: MSc in Chemical and Bioengineering
       institution: Friedrich-Alexander-Universität Erlangen-Nürnberg
       year: 2019
-    - course: HBSc in Neuroscience/Cell Molecular Biology
+    - course: HBSc in Neuroscience/Cell Molecular Bio
       institution: University of Toronto - St. George
       year: 2014
 - icon: cv
   icon_pack: ai
-  link: media/resume.pdf
+  link: media/MichaelSon.pdf
 email: ""
 superuser: true
 highlight_name: false
