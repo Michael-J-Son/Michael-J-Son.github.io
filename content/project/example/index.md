@@ -12,7 +12,7 @@ summary: >-
 
   * Optimized models by tuning their hyperparameters with **RandomizedSearchCV**.
 
-  * Models trained/evaluated:
+  * Models trained/evaluated
 
     * **Logistic Regression**
     * **Random Forest**
@@ -138,7 +138,10 @@ III. Training with Tuned Hyperparameters
 
 IV. Performance Evaluation
 
-* Evaluation metric: **F1 scores**, **ROC AUC**
+* Evaluation metric
+
+  * **F1 scores**
+  * **ROC AUC**
 * Models trained and evaluated
 
   * **Logistic Regression**
