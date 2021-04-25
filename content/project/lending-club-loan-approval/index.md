@@ -24,7 +24,7 @@ featured: true
 tags:
   - Classification
   - Imbalanced Data
-external_link: Project/Lending Club Loan Approval
+external_link: content/project/lending-club-loan-approval/
 links: []
 image:
   filename: ""
