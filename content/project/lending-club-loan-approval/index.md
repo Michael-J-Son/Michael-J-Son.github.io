@@ -19,8 +19,8 @@ summary: >-
     * **Support Vector Machine**
     * **XGBoost**
   * Best model: **XGBoost**
-draft: false
-featured: false
+draft: true
+featured: true
 tags:
   - Classification
   - Imbalanced Data
