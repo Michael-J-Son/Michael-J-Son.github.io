@@ -3,7 +3,7 @@ title: Lending Club Loan Approval
 subtitle: Binary Classifier for Optimizing Loan Approval
 date: 2021-04-25T15:17:28.473Z
 summary: >-
-  ### Summary
+  #### Summary
 
 
   * Constructed a **binary classifier** to differentiate loans which are most likely to incur loss from the rest, based on financial attributes of loan applicants.
