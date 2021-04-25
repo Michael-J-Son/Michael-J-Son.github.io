@@ -16,12 +16,6 @@ subtitle:
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-- icon: dna
-  icon_pack: fas
-  name: Molecular Biology Techniques
-- icon: vial
-  icon_pack: fas
-  name: Experimental Research
 - icon: python
   icon_pack: fab
   name: Python
@@ -31,6 +25,12 @@ feature:
 - icon: robot
   icon_pack: fas
   name: Machine Learning
+- icon: dna
+  icon_pack: fas
+  name: Molecular Biology Techniques
+- icon: vial
+  icon_pack: fas
+  name: Experimental Research
 
 # Uncomment to use emoji icons.
 #- icon: ":smile:"
