@@ -1,6 +1,7 @@
 ---
 title: Michael Son
 role: Research Scientist, Data Scientist
+avatar_filename: dsc_0022_2.jpg
 bio: "Interests: biotechnology, data science, machine learning"
 interests:
   - Biotechnology
