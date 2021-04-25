@@ -21,6 +21,7 @@ summary: >-
 draft: false
 featured: true
 tags:
+  - Supervised Learning
   - Regression
 external_link: project/melanoma-tumor-size-prediction/
 links:
