@@ -21,10 +21,10 @@ social:
 organizations: []
 education:
   courses:
-    - course: Master of Science in Chemical and Bioengineering
+    - course: MSc in Chemical and Bioengineering
       institution: Friedrich-Alexander-Universität Erlangen-Nürnberg
       year: 2019
-    - course: Honours Bachelor of Science in Neuroscience and Cell Molecular Biology
+    - course: HBSc in Neuroscience and Cell Molecular Biology
       institution: University of Toronto - St. George
       year: 2014
 email: ""
