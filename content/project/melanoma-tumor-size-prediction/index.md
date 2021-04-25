@@ -3,7 +3,7 @@ title: Melanoma Tumor Size Prediction
 subtitle: Regressor for Predicting Melanoma Tumor Size
 date: 2021-04-24T22:53:56.842Z
 summary: >-
-  ## Project Summary
+  ## Overview
 
 
   * Constructed a regressor to predict the numerical value of melanoma tumor size based on relevant attributes.
