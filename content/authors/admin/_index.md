@@ -27,10 +27,13 @@ education:
     - course: HBSc in Neuroscience/Cell Molecular Biology
       institution: University of Toronto - St. George
       year: 2014
+- icon: cv
+  icon_pack: ai
+  link: media/resume.pdf
 email: ""
 superuser: true
 highlight_name: false
 ---
 Meticulous and analytical researcher with expertise in molecular biology techniques and data analysis. Detail-oriented and methodical professional proficient in conducting rigorous experimental research utilizing state-of-the-art equipment. Familiar with gathering, cleaning, and organizing data for use by technical and non-technical personnel. Advanced understanding of statistical, algebraic, and other analytical techniques. Reliable team player with excellent communication and problem-solving skills.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "static/upload/MichaelSon.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/MichaelSon.pdf" "newtab" >}}resumé{{< /staticref >}}.
