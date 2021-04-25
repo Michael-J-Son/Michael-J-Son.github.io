@@ -29,7 +29,7 @@ links:
   - icon_pack: fab
     url: https://github.com/Michael-J-Son/Lending_Club_Capstone
     icon: github
-    name: ""
+    name: Follow
 image:
   filename: ""
   focal_point: Smart
