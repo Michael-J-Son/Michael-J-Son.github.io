@@ -23,7 +23,6 @@ featured: true
 tags:
   - Supervised Learning
   - Regression
-external_link: project/melanoma-tumor-size-prediction/
 links:
   - url: https://github.com/Michael-J-Son/Melanoma_Capstone
     icon_pack: fab
