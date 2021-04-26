@@ -8,7 +8,7 @@ summary: >-
 
   * Constructed a regressor to predict the numerical value of melanoma tumor size based on relevant attributes.
 
-  * Optimized models by tuning their hyperparameters with **RandomSearchCV**.
+  * Optimized models by tuning their hyperparameters with **RandomizedSearchCV**.
 
   * Models trained and evaluated
 
