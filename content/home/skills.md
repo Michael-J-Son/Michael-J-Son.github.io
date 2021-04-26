@@ -17,7 +17,7 @@ subtitle:
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
 - icon: code
-  icon_pack: fab
+  icon_pack: fas
   name: Coding
 - icon: chart-line
   icon_pack: fas
