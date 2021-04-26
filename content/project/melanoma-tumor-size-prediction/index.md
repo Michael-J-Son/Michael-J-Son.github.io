@@ -41,7 +41,7 @@ image:
 * **0** null values
 * Features
 
-  * **mass_npea**: the mass of the area under under study for melanoma tumor.
+  * **mass_npea**: the mass of the area under study for melanoma tumor.
   * **size_npear**: the size of the area under study for melanoma tumor.
   * **malign_ratio**: the ratio of normal to malign surface under study.
   * **damage_size**: irrecoverable area of skin damaged by the tumor.
