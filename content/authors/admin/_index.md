@@ -28,7 +28,7 @@ education:
     - course: HBSc in Neuroscience/Cell Molecular Bio
       institution: University of Toronto - St. George
       year: 2014
-email: ""
+email: michaelj.son@icloud.com
 superuser: true
 highlight_name: false
 ---
