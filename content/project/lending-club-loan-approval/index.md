@@ -14,6 +14,8 @@ summary: >-
 
     * **1**: Good Loan
     * **0**: Bad Loan
+  * Models Trained/Evaluated: **Logistic Regression** | **Random Forest** | **Support Vector Machine** | **eXtreme Gradient Boosting**
+
   * Best Model: **XGBoost**
 
   * Best Model Performance: **ROC AUC** = **0.80** | **Accuracy** = **83%** | **Minority F1** = **0.56** | **Majority F1** = **0.89**
