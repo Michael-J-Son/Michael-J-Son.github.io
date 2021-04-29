@@ -6,25 +6,26 @@ summary: >-
   #### Summary
 
 
-  * Constructed a **binary classifier** to differentiate loans which are most likely to incur loss from the rest, based on financial attributes of loan applicants.
+  * Dataset: **Lending Club Loan Data 2007-2011** with **42,538** entries, **115** features.
+
+  * Tools Used: **NumPy** | **pandas** | **Matplotlib** | **Seaborn** | **Scikit-Learn** | **Imbalanced-Learn**
+
+  * Constructed a **binary classifier** based on financial attributes of loan applicants to differentiate loans which are most likely to incur loss from the rest.
+
+  * Best Model: **XGBoost**
+
+  * Best Model Performance: **ROC AUC** = **0.80** | **Accuracy** = **83%** | **Minority F1** = **0.56** | **Majority F1** = **0.89**
 
   * Addressed the issue of imbalanced data by oversampling the minority class using **SMOTE** from **Imbalanced-Learn**.
 
   * Optimized models by tuning their hyperparameters with **RandomizedSearchCV**.
-
-  * Models trained and evaluated
-
-    * **Logistic Regression**
-    * **Random Forest**
-    * **Support Vector Machine**
-    * **XGBoost**
-  * Best model: **XGBoost**
 draft: false
 featured: true
 tags:
   - Supervised Learning
   - Classification
   - Imbalanced Data
+external_link: https://michael-json.netlify.app/project/lending-club-loan-approval/
 links:
   - icon_pack: fab
     url: https://github.com/Michael-J-Son/Lending_Club_Capstone
