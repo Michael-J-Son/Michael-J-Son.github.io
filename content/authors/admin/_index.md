@@ -1,6 +1,6 @@
 ---
 title: Michael Son
-role: Research Scientist | Data Scientist | Data Analyst | Machine Learning Engineer
+role: Research Scientist | Data Scientist | Data Analyst | ML Engineer
 avatar_filename: avatar.jpg
 bio: "Interests: Biotechnology, Data Science, Machine Learning"
 interests:
