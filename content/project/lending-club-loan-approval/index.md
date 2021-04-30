@@ -8,7 +8,7 @@ summary: >-
 
   * **Lending Club 2007-2011** dataset with **42,538** entries and **115** features.
 
-  * Tools Used: **NumPy** | **pandas** | **Matplotlib** | **Seaborn** | **Scikit-Learn** | **Imbalanced-Learn**
+  * Tools Used: **NumPy** | **pandas** | **Matplotlib** | **Seaborn** | **Scikit-Learn** | **XGBoost** | **Imbalanced-Learn**
 
   * Constructed a **binary classifier** based on financial attributes of loan applicants to differentiate loans which are most likely to incur loss from the rest.
 
@@ -20,7 +20,7 @@ summary: >-
 
   * Optimized models by tuning their hyperparameters with **RandomizedSearchCV**.
 
-  * Best Model: **XGBoost**
+  * Best Model: **eXtreme Gradient Boosting**
 
   * Best Model Performance: **ROC AUC** = **0.80** | **Accuracy** = **83%** | **Minority F1** = **0.56** | **Majority F1** = **0.89**
 draft: false
@@ -154,18 +154,18 @@ IV. Performance Evaluation
   * **Logistic Regression**
   * **Random Forest**
   * **Support Vector Machine**
-  * **XGBoost**
+  * **eXtreme Gradient Boosting**
 
 ### Model Comparison
 
-| Model                  | Minority F1 | Majority F1 | ROC AUC |
-| ---------------------- | ----------- | ----------- | ------- |
-| Logistic Regression    | 0.47        | 0.80        | 0.78    |
-| Random Forest          | 0.53        | 0.91        | 0.74    |
-| Support Vector Machine | 0.41        | 0.87        | 0.67    |
-| XGBoost                | 0.56        | 0.89        | 0.80    |
+| Model                     | Minority F1 | Majority F1 | ROC AUC |
+| ------------------------- | ----------- | ----------- | ------- |
+| Logistic Regression       | 0.47        | 0.80        | 0.78    |
+| Random Forest             | 0.53        | 0.91        | 0.74    |
+| Support Vector Machine    | 0.41        | 0.87        | 0.67    |
+| eXtreme Gradient Boosting | 0.56        | 0.89        | 0.80    |
 
-* Best model: **XGBoost**
+* Best model: **eXtreme Gradient Boosting**
 
 ### Features of Importance
 
@@ -190,7 +190,7 @@ IV. Performance Evaluation
 
 ## Conclusion
 
-* Best model: **XGBoost**
+* Best model: **eXtreme Gradient Boosting**
 * Primary features of importance: **last_credit_pull_d**, **grade**, **inq_last_6mths**
 * Prospective improvements
 
