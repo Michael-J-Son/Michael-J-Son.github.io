@@ -6,6 +6,10 @@ summary: >-
   #### Summary
 
 
+  * Datasets provided by **Machine Hack: Melanoma Tumor Size Prediction**
+
+    * Training Set: **9,146** entries, **10** features
+    * Test Set: **36,584** entries, **10** features
   * Constructed a regressor to predict the numerical value of melanoma tumor size based on relevant attributes.
 
   * Optimized models by tuning their hyperparameters with **RandomizedSearchCV**.
@@ -23,6 +27,7 @@ featured: true
 tags:
   - Supervised Learning
   - Regression
+external_link: https://michael-json.netlify.app/project/melanoma-tumor-size-prediction/
 links:
   - url: https://github.com/Michael-J-Son/Melanoma_Capstone
     icon_pack: fab
