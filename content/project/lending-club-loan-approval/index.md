@@ -14,7 +14,7 @@ summary: >-
 
     * **1**: Good/Profitable Loan | Majority Class
     * **0**: Bad/Unprofitable Loan | Minority Class
-  * Addressed the issue of imbalanced data by oversampling the minority class using **SMOTE** from **Imbalanced-Learn**.
+  * Addressed the issue of imbalanced data (6:1 class ratio) by oversampling the minority class using **SMOTE** from **Imbalanced-Learn**.
 
   * Models Trained/Evaluated: **Logistic Regression** | **Random Forest** | **Support Vector Machine** | **eXtreme Gradient Boosting**
 
