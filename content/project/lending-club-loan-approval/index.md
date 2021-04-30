@@ -22,7 +22,7 @@ summary: >-
 
   * Best Model: **eXtreme Gradient Boosting**
 
-  * Best Model Performance: **ROC AUC** = **0.80** | **Accuracy** = **83%** | **Minority F1** = **0.56** | **Majority F1** = **0.89**
+  * Best Model Performance: **Minority F1** = **0.56** | **Majority F1** = **0.89** | **ROC AUC** = **0.80** | **Accuracy** = **83%**
 draft: false
 featured: true
 tags:
