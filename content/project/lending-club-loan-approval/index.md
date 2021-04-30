@@ -6,8 +6,9 @@ summary: >-
   #### Summary
 
 
-  * Training/Test Dataset: **Lending Club Loan Data 2007-2011** with **42,538** entries and **115** features.
+  * Dataset
 
+    * **Lending Club Loan Data 2007-2011** with **42,538** entries and **115** features.
   * Tools Used: **NumPy** | **pandas** | **Matplotlib** | **Seaborn** | **Scikit-Learn** | **Imbalanced-Learn**
 
   * Constructed a **binary classifier** based on financial attributes of loan applicants to differentiate loans which are most likely to incur loss from the rest.
