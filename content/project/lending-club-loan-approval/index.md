@@ -12,8 +12,8 @@ summary: >-
 
   * Constructed a **binary classifier** based on financial attributes of loan applicants to differentiate unprofitable loans from the rest.
 
-    * **1**: Good Loan
-    * **0**: Bad Loan
+    * **1**: Good/Profitable Loan | Majority Class
+    * **0**: Bad/Unprofitable Loan | Minority Class
   * Addressed the issue of imbalanced data by oversampling the minority class using **SMOTE** from **Imbalanced-Learn**.
 
   * Models Trained/Evaluated: **Logistic Regression** | **Random Forest** | **Support Vector Machine** | **eXtreme Gradient Boosting**
