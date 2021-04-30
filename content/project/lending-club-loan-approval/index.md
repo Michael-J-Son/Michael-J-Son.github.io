@@ -158,12 +158,12 @@ IV. Performance Evaluation
 
 ### Model Comparison
 
-| Model                     | Minority F1 | Majority F1 | ROC AUC |
-| ------------------------- | ----------- | ----------- | ------- |
-| Logistic Regression       | 0.47        | 0.80        | 0.78    |
-| Random Forest             | 0.53        | 0.91        | 0.74    |
-| Support Vector Machine    | 0.41        | 0.87        | 0.67    |
-| eXtreme Gradient Boosting | 0.56        | 0.89        | 0.80    |
+| Model                     | Minority F1 | Majority F1 | ROC AUC | Accuracy |
+| ------------------------- | ----------- | ----------- | ------- | -------- |
+| Logistic Regression       | 0.47        | 0.80        | 0.78    | 0.71     |
+| Random Forest             | 0.53        | 0.91        | 0.74    | 0.85     |
+| Support Vector Machine    | 0.41        | 0.87        | 0.67    | 0.79     |
+| eXtreme Gradient Boosting | 0.56        | 0.89        | 0.80    | 0.83     |
 
 * Best model: **eXtreme Gradient Boosting**
 
