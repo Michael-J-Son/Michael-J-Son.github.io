@@ -29,7 +29,6 @@ tags:
   - Supervised Learning
   - Classification
   - Imbalanced Data
-external_link: https://michael-json.netlify.app/project/lending-club-loan-approval/
 links:
   - icon_pack: fab
     url: https://github.com/Michael-J-Son/Lending_Club_Capstone
