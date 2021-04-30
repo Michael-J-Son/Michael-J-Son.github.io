@@ -111,8 +111,8 @@ IV. Performance Evaluation
 
 * Evaluation metric
 
-  * **R2**
   * **MSE**
+  * **R2**
 * Models trained and evaluated
 
   * **Multiple Linear Regression**
