@@ -20,7 +20,7 @@ education:
     - course: MSc in Chemical and Bioengineering
       institution: Friedrich-Alexander-Universität Erlangen-Nürnberg
       year: 2019
-    - course: HBSc in Neuroscience and Cell Molecular Bio
+    - course: HBSc in Neuroscience/Cell Molecular Bio
       institution: University of Toronto - St. George
       year: 2014
 email: michaelj.son@icloud.com
