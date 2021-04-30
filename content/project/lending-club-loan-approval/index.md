@@ -10,7 +10,7 @@ summary: >-
 
   * Tools Used: **NumPy** | **pandas** | **Matplotlib** | **Seaborn** | **Scikit-Learn** | **XGBoost** | **Imbalanced-Learn**
 
-  * Constructed a **binary classifier** based on financial attributes of loan applicants to differentiate loans which are most likely to incur loss from the rest.
+  * Constructed a **binary classifier** based on financial attributes of loan applicants to differentiate unprofitable loans from the rest.
 
     * **1**: Good Loan
     * **0**: Bad Loan
