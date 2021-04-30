@@ -14,15 +14,15 @@ summary: >-
 
     * **1**: Good Loan
     * **0**: Bad Loan
+  * Addressed the issue of imbalanced data by oversampling the minority class using **SMOTE** from **Imbalanced-Learn**.
+
   * Models Trained/Evaluated: **Logistic Regression** | **Random Forest** | **Support Vector Machine** | **eXtreme Gradient Boosting**
+
+  * Optimized models by tuning their hyperparameters with **RandomizedSearchCV**.
 
   * Best Model: **XGBoost**
 
   * Best Model Performance: **ROC AUC** = **0.80** | **Accuracy** = **83%** | **Minority F1** = **0.56** | **Majority F1** = **0.89**
-
-  * Addressed the issue of imbalanced data by oversampling the minority class using **SMOTE** from **Imbalanced-Learn**.
-
-  * Optimized models by tuning their hyperparameters with **RandomizedSearchCV**.
 draft: false
 featured: true
 tags:
