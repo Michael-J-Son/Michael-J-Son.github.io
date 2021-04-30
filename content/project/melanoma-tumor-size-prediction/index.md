@@ -39,7 +39,7 @@ image:
 ---
 ## Data Information
 
-* Datasets provided by **Machine Hack**, containing tumor size and relevant attributes.
+* Datasets provided by **Machine Hack**, containing tumor sizes and relevant attributes.
 * Training set: **9,146** entries, **10** features
 * Test set: **36,584** entries, **10** features
 * **0** null values
