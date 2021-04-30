@@ -10,18 +10,17 @@ summary: >-
 
     * Training Set: **9,146** entries, **10** features
     * Test Set: **36,584** entries, **10** features
+  * Tools Used: **NumPy** | **pandas** | **Matplotlib** | **Seaborn** | **Scikit-Learn** | **Keras**
+
   * Constructed a regressor to predict the numerical value of melanoma tumor size based on relevant attributes.
+
+  * Models Trained/Evaluated: **Multiple Linear Regression** | **Random Forest** | **Support Vector Machine** | **Multi-Layer Perceptron** | **Keras Regression**
 
   * Optimized models by tuning their hyperparameters with **RandomizedSearchCV**.
 
-  * Models trained and evaluated
+  * Best Model: **Random Forest**
 
-    * **Multiple Linear Regression**
-    * **Random Forest**
-    * **Support Vector Machine**
-    * **Multi-Layer Perceptron**
-    * **Keras Regression**
-  * Best model: **Random Forest**
+  * Best Model Performance: **MSE** = **8.25** | **R2** = **0.23**
 draft: false
 featured: true
 tags:
