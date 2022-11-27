@@ -27,6 +27,6 @@ email: michaelj.son@icloud.com
 superuser: true
 highlight_name: false
 ---
-Meticulous and analytical researcher with expertise in molecular biology techniques and data analysis. Detail-oriented and methodical professional proficient in conducting rigorous experimental research utilizing state-of-the-art equipment. Familiar with gathering, cleaning, and organizing data for use by technical and non-technical personnel. Advanced understanding of statistical, algebraic, and other analytical techniques.
+A biotech professional with an MSc. degree in Chemical and Bioengineering and 2 years of industry experience, and a certified data scientist trained in cleaning, feature engineering, and analyzing data for use by technical and non-technical personnel. Expertise in molecular biology techniques, NGS technologies, and data analysis, and proficiency in designing and conducting rigorous experimental research utilizing state-of-the-art equipment.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/MichaelSon.pdf" "newtab" >}}résumé{{< /staticref >}}.
